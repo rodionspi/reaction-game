@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+.main {
+    margin: auto;
+    text-align: center;
+}
+.main_game {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.table, .timer, .restart {
+    display: none;
+}
+.restart{
+    width: 120px;
+    margin: 20px auto;
+}
+.table {
+    width: 300px;
+    height: 300px;
+}
+
+td {
+    border:1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
